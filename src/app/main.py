@@ -15,7 +15,7 @@ app = FastAPI(title="Python FastAPI Template")
 
 @app.get("/")
 def root():
-    return {"message": "API is up and running!"}
+    return {"message": "API is up and running!!!"}
 
 
 app.include_router(health_router)
